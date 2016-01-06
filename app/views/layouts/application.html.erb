@@ -8,8 +8,31 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
+
+<body>
+  <div class="navbar-header">
+    <a class="pull-left" class="smaller-image" href="#"><img 
+      src="http://www.irecruitaustralia.com.au/assets/images/logos/logo-website.png"></a>
+    <a class = "navbar-brand" href="#">Blog</a>
+  </div>
+  <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height:1px;">
+    <ul class="nav navbar-nav navbar-right">
+              <li><a href = "#">BLOG HOME</a></li>
+              <li><a href = "#">CATEGORIES</a></li>
+              <li><a href = "#">SEARCH</a></li>
+              <li><a href = "#">BACK TO MAIN SITE</a></li>
+    </ul>
+  </div>
+  <div class="jumbotron">
+    <div class="container">
+    
+      <h2>LATEST ARTICLE</h2><br/>
+      <h1>AN EXTRAORDINARY ACHIEVEMENT</h1><br/>
+      <h3>by Josh Winters LEAD DESIGNER AND CO-FOUNDER</h3><br/>
+    
+    </div>
+  </div>
 <div class="container">
 	<%= yield %>
 </div>
