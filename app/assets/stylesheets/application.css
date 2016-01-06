@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+
+*= require bootstrap.css
+
+
+/*body { padding-top: 100px; }*/
+
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
+
+
+.jumbotron {
+  height: 350px;
+  /*color: white;
+  text-shadow: #444 0 1px 1px;*/
+  background:transparent;
+}
